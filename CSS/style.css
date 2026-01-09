@@ -56,6 +56,7 @@ nav{
 .btn-header:hover{
     background-color: #003617;
 }
+/* Banner Section */
 #banner{
     background: url(../image/hero-bg.png);
     background-position: center;
@@ -145,4 +146,67 @@ nav{
 }
 .btn-second:hover{
     color: black;
+}
+
+/* Note section*/
+#note{
+    width: 100%;
+    max-width: 1600px;
+}
+.note-container{
+    max-width: 1360px;
+    margin: 0 120px;
+}
+.note-heading{
+    text-align: center;
+    margin-bottom: 45px;
+    padding-top: 36px;
+}
+.note-heading h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 10px;
+}
+.note-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #5e6c79;
+}
+.note-cards{
+    max-width: 1360px;
+    margin: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.card{
+    max-width: 322px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #cc4f4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-top: 16px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #576c7c;
+    margin-top: 16px;
 }
