@@ -253,3 +253,52 @@ nav{
     font-size: 16px;
     margin-bottom: 15px;
 }
+
+/* Early Access*/
+
+#early-access{
+    width: 100%;
+    max-width: 1600px;
+    background-color: #FFFFFF;
+}
+.early-container{
+    max-width: 1360px;
+    background-color: #f7f6f2;
+    margin: 0 120px 60px;
+    text-align: center;
+}
+.early-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.early-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #576c7c;
+    margin-bottom: 40px;
+}
+.early-container button{
+    display: flex;
+    align-items: center;
+    background-color: #1fc464;
+    color: #FFFFFF;
+    gap: 8px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+.early-container button span{
+    font-size: 18px;
+}
+.early-container button:hover{
+    background-color: #003617;
+}
+.note{
+    font-size: 16px;
+    line-height: 20px;
+}
