@@ -302,3 +302,52 @@ nav{
     font-size: 16px;
     line-height: 20px;
 }
+
+/* Footer*/
+
+#footer{
+    width: 100%;
+    max-width: 1600px;
+    background-color: black;
+    color: white;
+}
+.footer-container{
+    margin: 0 auto;
+    padding: 40px 60px 20px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo img{
+    width: 139px;
+    height: auto;
+}
+.footer-social{
+    text-align: right;
+}
+.footer-social h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.social-icon{
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+}
+.social-icon a i{
+    width: 25px;
+    height: 25px;
+}
+.footer-divider{
+    margin: 30px 0 20px;
+    background-color: #5e6c79;
+}
+.footer-bottom{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
